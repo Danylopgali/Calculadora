@@ -5,6 +5,8 @@
     align-items: center;
     width: 300px; /* Ajusta el ancho del div según tus necesidades */
     height: 100px; /* Ajusta la altura del div según tus necesidades */
+    background-color: #2E3A59; /* Cambia este valor al color que desees */
+    color: #fff; 
 }
 .Display-content {
     width: 100%;

@@ -6,16 +6,19 @@
     align-items: center;
     width: 300px; /* Ajusta el ancho del div según tus necesidades */
     height: 400px; /* Ajusta la altura del div según tus necesidades */
-  }
+    background: #313A51;
+}
+   
   
-  button {
+button {
+    background-color: #2E3A59; /* Cambia este valor al color que desees */
     flex: 1;
-    padding: 20px; /* Ajusta el padding según tus necesidades */
-    font-size: 1.5em; /* Ajusta el tamaño de fuente según tus necesidades */
+    padding: 20px;
+    font-size: 1.5em;
     cursor: pointer;
     border: 1px solid #ccc;
-    background-color: #fff;
-    margin: 5px 0; /* Añadido margen en la parte superior e inferior para separar los botones */
+    color: #fff; /* Cambia el color del texto a blanco o el contraste deseado */
+    margin: 5px 0;
   }
   
   .operator {
