@@ -1,0 +1,28 @@
+.tablero {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid red;
+    padding: 10px;
+    align-items: center;
+    width: 300px; /* Ajusta el ancho del div según tus necesidades */
+    height: 400px; /* Ajusta la altura del div según tus necesidades */
+  }
+  
+  button {
+    flex: 1;
+    padding: 20px; /* Ajusta el padding según tus necesidades */
+    font-size: 1.5em; /* Ajusta el tamaño de fuente según tus necesidades */
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin: 5px 0; /* Añadido margen en la parte superior e inferior para separar los botones */
+  }
+  
+  .operator {
+    background-color: #fcb300;
+  }
+  
+  .button:active {
+    transform: scale(0.95);
+  }
+  

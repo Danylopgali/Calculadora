@@ -1,0 +1,16 @@
+.Display{
+ 
+    border: 2px solid purple;
+    padding: 10px;
+    align-items: center;
+    width: 300px; /* Ajusta el ancho del div según tus necesidades */
+    height: 100px; /* Ajusta la altura del div según tus necesidades */
+}
+.Display-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em; 
+  }

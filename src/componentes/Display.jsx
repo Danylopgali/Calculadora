@@ -1,9 +1,11 @@
 import React from "react";
-
+import "./display.style.css"
 function Display({ value }) {
   return (
-    <div>
-      <div>{value}</div>
+    <div className="Display">
+      <div className="Display-content">
+        {value}
+      </div>
     </div>
   );
 }
