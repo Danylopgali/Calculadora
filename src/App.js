@@ -11,7 +11,7 @@ function App() {
   function handleButtonClick(event) {
     const name = event.target.name;
 
-    if (name === "+" || name === "="||name==="-"||name==="x"||name==="/"||name==="AC") {
+    if (name === "+" || name === "="||name==="-"||name==="x"||name==="/"||name==="AC"||name==="x10") {
       // Si se presiona el botón "=" y hay un operador y un segundo número, realizar la operación
       if (name === "=" && operator && secondNumber) {
         const result = performOperation();
@@ -46,6 +46,8 @@ function App() {
             return num1/num2;
         case"AC":
             return "0"
+        case "x10":
+          return num1*10
       default:
         return state;
     }
