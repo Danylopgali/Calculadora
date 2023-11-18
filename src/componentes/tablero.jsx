@@ -4,7 +4,9 @@ import "./tablero.style.css"
 function Tablero({ onButtonClick }) {
   return (
     <div className="tablero">
+
       <div className="linea-0">
+
       <button name="." onClick={onButtonClick}>
         .
       </button> 
@@ -14,7 +16,7 @@ function Tablero({ onButtonClick }) {
       <button name="x10" onClick={onButtonClick}>
         x10
       </button> 
-      <button name="=" onClick={onButtonClick}>
+      <button className="igual" name="=" onClick={onButtonClick}>
         =
       </button>
       </div>
@@ -28,7 +30,7 @@ function Tablero({ onButtonClick }) {
       <button name="3" onClick={onButtonClick}>
         3
       </button>
-      <button name="+" onClick={onButtonClick}>
+      <button className="operador" name="+" onClick={onButtonClick}>
         +
       </button>
       
@@ -44,7 +46,7 @@ function Tablero({ onButtonClick }) {
       <button name="6" onClick={onButtonClick}>
         6
       </button>
-      <button name="-" onClick={onButtonClick}>
+      <button className="operador" name="-" onClick={onButtonClick}>
         -
       </button>
       </div>
@@ -59,16 +61,16 @@ function Tablero({ onButtonClick }) {
       <button name="9" onClick={onButtonClick}>
         9
       </button>
-      <button name="x" onClick={onButtonClick}>
+      <button className="operador" name="x" onClick={onButtonClick}>
         x
       </button>
       </div>
 
       <div className="linea-4">
-      <button name="AC" onClick={onButtonClick}>
+      <button className="AC" name="AC" onClick={onButtonClick}>
         AC
       </button>
-      <button name="/" onClick={onButtonClick}>
+      <button className="operador" name="/" onClick={onButtonClick}>
         /
       </button>
    

@@ -1,7 +1,7 @@
 .tablero {
     display: flex;
     flex-direction: column-reverse;
-    border: 2px solid red;
+    border: 10px solid #2C2748;
     padding: 10px;
     align-items: center;
     width: 300px; /* Ajusta el ancho del div según tus necesidades */
@@ -11,6 +11,7 @@
    
   
 button {
+  Font-family: Consolas, monaco, monospace;
     background-color: #2E3A59; /* Cambia este valor al color que desees */
     flex: 1;
     padding: 20px;
@@ -21,10 +22,12 @@ button {
     margin: 5px 0;
   }
   
-  .operator {
+  .operador {
     background-color: #fcb300;
   }
-  
+  .igual, .AC{
+    background-color: #F97220;
+  }
   .button:active {
     transform: scale(0.95);
   }

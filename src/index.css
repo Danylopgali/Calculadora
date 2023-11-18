@@ -1,3 +1,8 @@
 body{
    background-color: #4A5164;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh; /* Ajusta la altura según tus necesidades */
+   margin: 0;
 }
